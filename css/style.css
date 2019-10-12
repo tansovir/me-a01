@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: 0;
+}
+body{
+
+}
+a{
+
+}
+.container{
+
+width: 80%;
+
+margin: 0 auto;
+}
+/* header*/
+header{
+
+/* background-image: url(../images/bg.png); */
+
+height: 100vh;
+
+background-repeat: no-repeat;
+
+background-position: left bottom;
+
+background-size: cover;
+
+padding-top: 40px;
+}
+.header-top{
+    width: 100%;
+    float: left;
+    display: inline-block;
+}
+.logo{
+    float: left;
+    width: 30%;
+    /* display: inline-block; */
+}
+.logo h1{
+    color: #505CFD;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+nav.header-nav{
+    width: 70%;
+    float: left;
+    /* display: inline-block; */
+}
+nav.header-nav ul{
+    float: right;
+}
+nav.header-nav ul li{
+    list-style: none;
+    display: inline-block;
+    /* text-transform: uppercase; */
+}
+nav.header-nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    font-weight: 900;
+}
+.greatings{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    padding-top: 190px;
+}
+.greatings h1{
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 100;
+}
+.greatings h4{
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+/* about me */
+.about-me{
+    background-color: #fff;
+    height: 80vh;
+    width: 100%;
+    padding: 100px 0;
+}
+.about-text{
+    width: 60%;
+    float: left;
+    padding-right: 20px;
+}
+.about-text h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.about-text h3{
+    font-size: 18px;
+    padding: 20px 0;
+    text-transform: capitalize;
+    color: #333333;
+    font-weight: 600;
+}
+.about-text p{
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: lighter;
+    color: #463D39;
+}
+.about-text a{
+    background-color: #505CFD;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.about-photo{
+    width: 40%;
+    float: left;
+}
+.about-photo img{
+    height: auto;
+    width: 100%;
+    box-shadow: 15px 18px 50px 4px #ddd;
+}
+
+/* skills */
+.skills{
+    width: 100%;
+    background-color: #F6F7FE;
+    height: 80vh;
+    padding: 100px 0;
+}
+.headeing{
+    text-align: center;
+    display: block;
+    padding-bottom: 40px;
+}
+.headeing h1{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 40px;
+}
+.progress{
+    width: 32.33%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0;
+}
+.progress h2{}
+.progress .progress-limit{
+    width: 100%;
+    background-color: #EEEEEE;
+    height: 20px;
+    border-radius: 10px;
+}
+.progress .progress-limit .progress-bar{
+    width: 80%;
+    background-color: #505CFD;
+    height: 20px;
+    border-radius: 10px;
+}
+
+/* my services */
+.my-service{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 80vh;
+    padding: 100px 0;
+}
+.service-box{
+    width: 31.33%;
+    float: left;
+    background-color: #F6F7FE;
+    margin-right: 15px;
+    box-shadow: 0px 0px 4px 2px #ddd;
+    padding: 20px;
+}
+.service-box i{}
+.service-box h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #333333;
+    font-weight: 100;
+}
+.service-box p{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+/* clients */
+.clients{}
+.clients-box{
+    width: 23%;
+    float: left;
+    border: 1px dotted #505CFD;
+    border-radius: 10px;
+    padding: 50px 0;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+.clients-box i{}
+.clients-box h2{
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    color: #333333;
+    font-weight: 100;
+}
+.clients-box h1{
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    color: #333333;
+    font-weight: 100;
+}
+
+/* recent works */
+.recent-works{
+    width: 100%;
+    HEIGHT: 190vh;
+    background-color: #fff;
+    padding: 100px 0;
+}
+.works-nav{
+    text-align: center;
+}
+.works-nav ul{}
+.works-nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.works-nav ul li a{
+    text-decoration: none;
+    /* background: #505CFD; */
+    color: #505CFD;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    display: block;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: 1px solid #505CFD;
+}
+.gallary{
+    width: 100%;
+    margin-top: 40px;
+}
+.gallary ul{}
+.gallary ul li{width: 50%;float: left;}
+.gallary ul li img{
+    width: 100%;
+    height: auto;
+}
+
+/* clients comments */
+.clients-comments{
+    height: 80vh;
+    width: 100%;
+    background-color: #F6F7FE;
+    padding: 125px 0;
+}
+.clients{
+    width: 100%;
+    height: 80vh;
+    background-color: #F6F7FE;
+    padding: 100px 0;
+}
+.clients-p{width: 50%;FLOAT: left;padding: 20px;display: inline-block;}
+.clients-p img{
+    height: 150px;
+    width: 150px;
+    float: left;
+    border-radius: 121px;
+}
+.clients-p .clients-text{
+    /* float: left; */
+    /* display: block; */
+    /* margin-left: 168px; */
+}
+.clients-p .clients-text h1{
+    font-size: 22px;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+.clients-p .clients-text span{
+    color: #505CFD;
+}
+.clients-p .clients-text p{
+    margin-top: 10px;
+}
+
+/* address */
+.address{
+    height: 60vh;
+    width: 100%;
+    padding: 150px 0;
+}
+.address-box{width: 25%;float: left;}
+.address-box i{}
+.address-box h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.address-box h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+/* contact form */
+.contact-form{
+    height: 80vh;
+    background-color: #cecece36;
+    width: 100%;
+    padding: 100px 0;
+}
+.contact-form h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 100;
+    color: #505CFD;
+}
+.contact-form p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+.contact-form form{
+    width: 60%;
+    margin: auto;
+}
+.contact-form form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+.contact-form form a{
+    background-color: #505CFD;
+    padding: 10px;
+    border-radius: 27px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    display: inline-block;
+    float: right;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 5vh;
+}
+footer ul{}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{}
+footer p{
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+}
+footer a{
+    text-decoration: none;
+    color: #505CFD;
+}
